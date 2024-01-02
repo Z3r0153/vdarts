@@ -1,12 +1,12 @@
 ### Configuration du BQEEL R2 MAX
 ## Activer le server TCP adb au démarage
 Installer une apk shell sur le BQEEL, passer root sur le shell 
-´´´ bash
+```bash
 su
 setprop service.adb.tcp.port 5555
 stop adbd
 start adbd
-´´´
+```
 Se connecter avec adb sur la BQEEL
 ´´´ bash
 adb connect 192.168.0.46:5555
